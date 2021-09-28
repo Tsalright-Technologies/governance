@@ -152,12 +152,6 @@ func main() {
 			)
 		}
 	}
-
-	for _, route := range mgState.Routes {
-		// sneaky way of making it easy to import routes back into whichever
-		// resource created them
-		tf.Import(route.Description, fmt.Sprintf("us:%s", route.ID))
-	}
 }
 
 func newv3Client(ctx context.Context) *github.Client {
