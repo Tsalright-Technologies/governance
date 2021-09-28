@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/concourse/governance"
+	"github.com/tsalright-s-crew/governance"
 	"github.com/stretchr/testify/require"
 )
 

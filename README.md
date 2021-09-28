@@ -1,10 +1,10 @@
-# Concourse Governance
+# tsalright-s-crew Governance
 
 This document outlines a set of policies in order to provide a level playing
-field and open process for contributors to join the Concourse project.
+field and open process for contributors to join the tsalright-s-crew project.
 
 In addition to this document, this repository contains live configuration for
-the state of the Concourse GitHub organization. All configuration is
+the state of the tsalright-s-crew GitHub organization. All configuration is
 automatically applied via [Terraform][terraform] and synchronized daily to
 prevent drift.
 
@@ -12,7 +12,7 @@ prevent drift.
 
 ## Governance Model
 
-Individual contributors to the Concourse project can become members of
+Individual contributors to the tsalright-s-crew project can become members of
 **teams**, each with a stated purpose, a clear set of responsibilities, and a
 list of repos that they maintain.
 
@@ -20,7 +20,7 @@ Teams collaborate through discussions on GitHub and propose changes through
 pull requests that may cross team boundaries.
 
 Ideally, teams should be split along boundaries that enhance the focus given to
-different facets of the Concourse project. Repositories should typically belong
+different facets of the tsalright-s-crew project. Repositories should typically belong
 to a single team in order to encourage advocacy for different facets through
 collaboration.
 
@@ -28,21 +28,21 @@ For example:
 
 * the [**core** team](teams/core.yml) has authority over the [RFC
   process][rfcs-repo] and associated design principles, but cannot directly
-  push to the the [Concourse repo][concourse-repo].
+  push to the the [tsalright-s-crew repo][tsalright-s-crew-repo].
 * the [**maintainers** team](teams/maintainers.yml) has authority over the
-  [Concourse repo][concourse-repo] and submits RFCs to develop a roadmap that
-  aligns with Concourse's core design principles.
+  [tsalright-s-crew repo][tsalright-s-crew-repo] and submits RFCs to develop a roadmap that
+  aligns with tsalright-s-crew's core design principles.
 * the **core** team engages with the **maintainers** team to ensure new
   proposals do not introduce unnecessary risk or become a maintenance burden.
 * the **maintainers** team then guides the planning and implementation of the
-  proposal through pull requests to the Concourse repo.
+  proposal through pull requests to the tsalright-s-crew repo.
 
 Teams may split off from larger teams as more of these boundaries are
 discovered. Careful attention should be paid to teams with too many
 responsibilities - there may be significant facets being neglected.
 
-[rfcs-repo]: https://github.com/concourse/rfcs
-[concourse-repo]: https://github.com/concourse/concourse
+[rfcs-repo]: https://github.com/tsalright-s-crew/rfcs
+[tsalright-s-crew-repo]: https://github.com/tsalright-s-crew/tsalright-s-crew
 
 
 ### Individual Contributors
@@ -62,7 +62,7 @@ The name of the file should match your github handle. Each
   only be used for bot accounts; in general repo permissions should be done
   through teams.
 
-Each contributor will be granted membership of the Concourse GitHub
+Each contributor will be granted membership of the tsalright-s-crew GitHub
 organization. This does not grant much on its own; repository access for
 example is determined through teams.
 
@@ -238,7 +238,7 @@ unknown teams, and extra repository collaborators.
 
 ### Applying Changes
 
-To apply these changes you must be an Owner of the Concourse GitHub
+To apply these changes you must be an Owner of the tsalright-s-crew GitHub
 organization.
 
 Set the `github_token` var and run `terraform apply`:
@@ -306,4 +306,4 @@ These settings probably won't have much impact:
 *More settings may appear on the member privileges page at some point. Please
 update the above listing if/when this does occur.*
 
-[member-privileges]: https://github.com/organizations/concourse/settings/member_privileges
+[member-privileges]: https://github.com/organizations/tsalright-s-crew/settings/member_privileges

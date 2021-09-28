@@ -1,6 +1,0 @@
-name: resource-types
-description: A place where the concourse resource types live.
-topics: []
-has_issues: true
-has_projects: true
-has_wiki: true

@@ -1,10 +1,9 @@
-name: infrastructure
-description: Terraform Infrastructure as Code.
-topics:
-- infrastructure
-has_issues: true
-has_projects: true
-has_wiki: true
+name: crcc-prayer-map-api
+description: backend for a prayer map
+topics: []
+has_issues: false
+has_projects: false
+has_wiki: false
 
 branch_protection:
 - pattern: master

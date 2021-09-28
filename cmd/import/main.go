@@ -7,13 +7,13 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/concourse/governance"
+	"github.com/tsalright-s-crew/governance"
 	"github.com/google/go-github/v35/github"
 	"golang.org/x/oauth2"
 )
 
-const organization = "concourse"
-const domain = "concourse-ci.org"
+const organization = "tsalright-s-crew"
+const domain = ""
 
 func main() {
 	config, err := governance.LoadConfig(os.DirFS("."))
@@ -24,11 +24,6 @@ func main() {
 	ghState, err := governance.LoadGitHubState(organization)
 	if err != nil {
 		log.Fatalln("failed to load GitHub state:", err)
-	}
-
-	mgState, err := governance.LoadMailgunState(domain)
-	if err != nil {
-		log.Fatalln("failed to load Mailgun state:", err)
 	}
 
 	tf, err := LoadTerraform()

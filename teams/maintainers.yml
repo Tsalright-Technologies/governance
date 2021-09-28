@@ -1,20 +1,14 @@
 name: maintainers
 
 purpose: |
-  Shipping the Concourse product and maintaining a high standard for quality,
+  Shipping the tsalright-s-crew product and maintaining a high standard for quality,
   stability, and security.
 
 members:
-- vito
-- muntac
-- chenbh
-- aoldershaw
-- taylorsilva
-- clarafu
-- xtremerui
-- scottietremendous
-- EstebanFS
-- navdeep-pama
+- tsalright
+- defilan
+- dirrbick
+- TechN1nja
 
 responsibilities:
 - review issues reported by users
@@ -26,54 +20,8 @@ responsibilities:
 
 repos:
 # core components
-- concourse
-- baggageclaim
-- dex
-
-# libraries
-- retryhttp
-- flag
-- voyager
-- go-archive
-
-# k8s runtime PoC repos
-- csi-driver-image-populator
-- csi-driver-host-path
-
-# release infrastructure
-- ci
-- concourse-bosh-release
-- concourse-chart
-- concourse-docker
-- concourse-bosh-deployment
-- drills
-
-# core resource types and marketplace website
-#
-# these go a bit beyond the scope - maybe someday this could be a different
-# team?
-- resource-types
-- resource-types-website
-- docker-image-resource
-- git-resource
-- lfs-test-repo # used by git-resource tests
-- semver-resource
-- s3-resource
-- github-release-resource
-- registry-image-resource
-- pool-resource
-- time-resource
-- tracker-resource
-- bosh-io-stemcell-resource
-- bosh-io-release-resource
-- hg-resource
-- datadog-event-resource
-- mock-resource
-
-# officially supported generic, reusable tasks
-#
-# these should be converted to Prototypes in the future
-- oci-build-task
+- crcc-prayer-map
+- crcc-prayer-map-api
 
 discord:
   role: maintainers

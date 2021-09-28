@@ -2,28 +2,19 @@ name: infrastructure
 
 purpose: |
   Provisioning and granting teams access to infrastructure necessary for the
-  Concourse project.
+  project.
 
 responsibilities:
-- manage and provision deployments, accounts, etc. needed by Concourse teams
+- manage and provision deployments, accounts, etc. needed by tsalright-s-crew teams
 - ensure secure storage and access to credentials
 
 members:
-- vito
-- navdeep-pama
-- aoldershaw
-- muntac
-- chenbh
-- clarafu
-- xtremerui
-- taylorsilva
+- tsalright
+- defilan
 
 repos:
 - infrastructure
 - governance
-- hush-house
-- oxygen-mask
-- prod
 
 discord:
   color: 0x597e8d

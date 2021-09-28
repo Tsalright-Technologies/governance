@@ -4,13 +4,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/concourse/governance"
-	"github.com/concourse/governance/cmd/harmonize/delta"
+	"github.com/tsalright-s-crew/governance"
+	"github.com/tsalright-s-crew/governance/cmd/harmonize/delta"
 	"go.uber.org/zap"
 )
 
-// Concourse Discord server ID
-const guildID = "219899946617274369"
+// tsalright-s-crew Discord server ID
+const guildID = "692609110239346688"
 
 func main() {
 	logger, err := zap.NewDevelopment(zap.IncreaseLevel(zap.InfoLevel))

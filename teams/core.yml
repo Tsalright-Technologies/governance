@@ -1,34 +1,24 @@
 name: core
 
 purpose: |
-  Designing Concourse core concepts, steering the design direction through
+  Designing core concepts, steering the design direction through
   the RFC process.
 
 responsibilities:
 - develop the governance model
 - review RFCs or delegate their review to a more relevant team
-- maintain Concourse's design principles through the RFC review process
-- clarify Concourse's design principles over time
 - reach consensus and usher each RFC through the resolution process
 - collaborate with @community to collect feedback for RFCs
 - collaborate with @maintainers to ensure RFCs are acceptable to maintain
-- collaborate with @maintainers to develop a roadmap that fits Concourse's
+- collaborate with @maintainers to develop a roadmap that fits tsalright-s-crew's
   design principles
 
 members:
-- vito
-- aoldershaw
-- clarafu
-- matthewpereira
-- chenbh
-- xtremerui
-- taylorsilva
-- muntac
-- EstebanFS
+- tsalright
+- defilan
 
 repos:
 - governance
-- rfcs
 
 discord:
   color: 0xf93a2f

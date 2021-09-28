@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/concourse/governance"
+	"github.com/tsalright-s-crew/governance"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -16,7 +16,7 @@ func TestGitHub(t *testing.T) {
 
 	desired := config.DesiredGitHubState()
 
-	actual, err := governance.LoadGitHubState("concourse")
+	actual, err := governance.LoadGitHubState("tsalright-s-crew")
 	require.NoError(t, err)
 
 	t.Run("members", func(t *testing.T) {

@@ -1,4 +1,4 @@
-contributors/*.yml  @concourse/community
-teams/*.yml         @concourse/community
-README.md           @concourse/core
-repos/*.yml         @concourse/infrastructure
+contributors/*.yml  @tsalright-s-crew/community
+teams/*.yml         @tsalright-s-crew/community
+README.md           @tsalright-s-crew/core
+repos/*.yml         @tsalright-s-crew/infrastructure

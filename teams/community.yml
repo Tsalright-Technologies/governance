@@ -1,29 +1,22 @@
 name: community
 
 purpose: |
-  Enabling the growth of Concourse's community of users and contributors.
+  Enabling the growth of Tsalright's Crew community of users and contributors.
 
 responsibilities:
-- develop the Concourse website and documentation
+- develop the website and documentation
 - reflect, enforce, and maintain the Code of Coduct
 - facilitate or directly contribute to content creation (blog posts, Tweets, etc.)
 - organize events, office hours, etc.
 - facilitate feedback between the community and other teams
 
 members:
-- vito
-- taylorsilva
-- scottietremendous
-- matthewpereira
-- chenbh
-- EstebanFS
+- tsalright
+- defilan
+- dirrbick
 
 repos:
-- docs
-- brand
-- examples
 - governance
-- office-hours
 
 discord:
   color: 0xa652bb

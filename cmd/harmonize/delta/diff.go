@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/concourse/governance"
+	"github.com/tsalright-s-crew/governance"
 )
 
 func Diff(config *governance.Config, discord Discord) ([]Delta, error) {

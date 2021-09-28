@@ -1,5 +1,5 @@
 name: governance
-description: Documentation and automation for the Concourse project governance model.
+description: Documentation and automation for the governance model.
 topics:
 - governance
 has_issues: true
@@ -7,6 +7,10 @@ has_issues: true
 # TODO: enable this when the github terraform provider supports creating branch
 # protection when none currently exists or set it manually and then uncomment
 # this.
-# branch_protection:
-# - pattern: master
-#   required_reviews: 1
+branch_protection:
+- pattern: master
+  allows_deletions: false
+  strict_checks: true
+  required_reviews: 1
+  dismiss_stale_reviews: true
+  require_code_owner_reviews: true
