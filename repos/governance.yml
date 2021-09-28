@@ -2,7 +2,9 @@ name: governance
 description: Documentation and automation for the governance model.
 topics:
 - governance
-has_issues: true
+has_issues: false
+has_projects: true
+has_wiki: false
 
 # TODO: enable this when the github terraform provider supports creating branch
 # protection when none currently exists or set it manually and then uncomment
