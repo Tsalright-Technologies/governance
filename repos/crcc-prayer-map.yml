@@ -1,6 +1,7 @@
 name: crcc-prayer-map
 description: frontend for a prayer map
 topics: []
+private: true
 has_issues: true
 has_projects: true
 has_wiki: false
