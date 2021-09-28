@@ -8,7 +8,7 @@ has_issues: true
 # protection when none currently exists or set it manually and then uncomment
 # this.
 branch_protection:
-- pattern: master
+- pattern: customize
   allows_deletions: false
   strict_checks: true
   required_reviews: 1

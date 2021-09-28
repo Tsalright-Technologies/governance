@@ -7,7 +7,7 @@ has_projects: true
 has_wiki: true
 
 branch_protection:
-- pattern: master
+- pattern: customize
   allows_deletions: false
   strict_checks: true
   required_reviews: 1

@@ -2,7 +2,7 @@ name: 'Discord'
 
 on:
   push:
-    branches: [master]
+    branches: [customize]
 
 jobs:
   test:
