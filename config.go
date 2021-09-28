@@ -22,6 +22,7 @@ type Person struct {
 	Discord string            `yaml:"discord,omitempty"`
 	Email   string            `yaml:"email,omitempty"`
 	Repos   map[string]string `yaml:"repos,omitempty"`
+	Admin   bool              `yaml:"admin,omitempty"`
 }
 
 type Team struct {
