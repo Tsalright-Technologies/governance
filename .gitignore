@@ -4,3 +4,5 @@
 *.tfvars.json
 .terraform
 tfplan
+.env
+.terraform.lock.hcl
