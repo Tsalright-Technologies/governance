@@ -22,6 +22,7 @@ repos:
 # core components
 - crcc-prayer-map
 - crcc-prayer-map-api
+- azure-pipeline-templates
 
 discord:
   role: maintainers
