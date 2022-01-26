@@ -18,7 +18,7 @@ Instructions for infrastructure team if this ever needs to be set up again:
     * Uncheck "Public Bot" - no one else should be using this.
     * Check "Server Members Intent" - this bot needs the ability to manage all
       members of the server.
-1. Copy the bot token and set it as a GitHub secret on `tsalright-s-crew/governance`
+1. Copy the bot token and set it as a GitHub secret on `tsalright-technologies/governance`
    called `DISCORD_ADMIN_BOT_TOKEN`.
 1. Under "OAuth2", check the `bot` scope, check the `Administrator` permission,
    and copy the URL.

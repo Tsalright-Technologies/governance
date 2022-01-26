@@ -7,12 +7,12 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tsalright-s-crew/governance"
+	"github.com/tsalright-technologies/governance"
 	"github.com/google/go-github/v35/github"
 	"golang.org/x/oauth2"
 )
 
-const organization = "tsalright-s-crew"
+const organization = "tsalright-technologies"
 const domain = ""
 
 func main() {

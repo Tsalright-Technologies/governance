@@ -1,4 +1,4 @@
-contributors/*.yml  @tsalright-s-crew/community
-teams/*.yml         @tsalright-s-crew/community
-README.md           @tsalright-s-crew/core
-repos/*.yml         @tsalright-s-crew/infrastructure
+contributors/*.yml  @tsalright-technologies/community
+teams/*.yml         @tsalright-technologies/community
+README.md           @tsalright-technologies/core
+repos/*.yml         @tsalright-technologies/infrastructure

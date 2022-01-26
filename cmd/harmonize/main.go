@@ -4,12 +4,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/tsalright-s-crew/governance"
-	"github.com/tsalright-s-crew/governance/cmd/harmonize/delta"
+	"github.com/tsalright-technologies/governance"
+	"github.com/tsalright-technologies/governance/cmd/harmonize/delta"
 	"go.uber.org/zap"
 )
 
-// tsalright-s-crew Discord server ID
+// tsalright-technologies Discord server ID
 const guildID = "692609110239346688"
 
 func main() {

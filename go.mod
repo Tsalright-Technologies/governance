@@ -11,4 +11,5 @@ require (
 	go.uber.org/zap v1.16.0
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
 	gopkg.in/yaml.v2 v2.4.0
+	github.com/gorilla/websocket v1.4.1
 )

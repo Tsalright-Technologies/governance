@@ -3,8 +3,8 @@ package delta_test
 import (
 	"testing"
 
-	"github.com/tsalright-s-crew/governance"
-	"github.com/tsalright-s-crew/governance/cmd/harmonize/delta"
+	"github.com/tsalright-technologies/governance"
+	"github.com/tsalright-technologies/governance/cmd/harmonize/delta"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

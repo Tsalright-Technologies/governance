@@ -26,7 +26,7 @@ resource "github_repository" "repos" {
   # TODO: this has caused errors with a newly created repo before. maybe an API
   # race condition?
   #
-  #   Error: PUT https://api.github.com/repos/tsalright-s-crew/foo/topics: 404 Not Found []
+  #   Error: PUT https://api.github.com/repos/tsalright-technologies/foo/topics: 404 Not Found []
   #
   # it's fixable by untainting the resource to prevent it from deleting the
   # repo and applying again:
@@ -93,7 +93,7 @@ resource "github_branch_protection" "branch_protections" {
   # until someone has a good reason to make it configurable
   allows_force_pushes = false
 
-  # tsalright-s-crew-bot needs to be able to push to protected branches
+  # tsalright-technologies-bot needs to be able to push to protected branches
   enforce_admins = false
 }
 

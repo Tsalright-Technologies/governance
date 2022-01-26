@@ -9,5 +9,5 @@ terraform {
 
 provider "github" {
   token        = var.github_token
-  organization = "tsalright-s-crew"
+  organization = "tsalright-technologies"
 }

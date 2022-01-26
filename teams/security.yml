@@ -5,7 +5,7 @@ purpose: |
 
 responsibilities:
 - develop the security response model, best practices, processes, etc.
-- review security reports made to security@tsalright-s-crew-ci.org
+- review security reports made to security@tsalright-technologies-ci.org
 - collaborate with @maintainers to establish a patch release timeline
 - coordinating communication between @maintainers and the public
 - work with @maintainers to determine severity and publish security advisories
