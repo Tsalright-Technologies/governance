@@ -1,4 +1,4 @@
-module github.com/tsalright-s-crew/governance
+module github.com/tsalright-technologies/governance
 
 go 1.16
 
