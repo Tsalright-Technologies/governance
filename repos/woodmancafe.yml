@@ -1,8 +1,8 @@
 name: woodsmancafe
-description: Bob and Julie's Restaurant Website
-topics:
-- website
-- react
+#description: Bob and Julie's Restaurant Website
+#topics:
+#- website
+#- react
 has_issues: true
 has_projects: false
 has_wiki: false
