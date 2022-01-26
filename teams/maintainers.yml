@@ -23,6 +23,8 @@ repos:
 - crcc-prayer-map
 - crcc-prayer-map-api
 - azure-pipeline-templates
+- woodsmancafe
+- tfmodule-azure-spa
 
 discord:
   role: maintainers
